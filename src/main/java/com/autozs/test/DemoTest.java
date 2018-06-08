@@ -21,7 +21,7 @@ public class DemoTest {
 		HttpSession session = request.getSession();
 		Cookie[] cookies = request.getCookies();
 		
-		
+		System.out.println("lianjie");
 		if(session.isNew()){
 			System.out.println("ÐÂ½¨µÄsession   "+session.getId());
 		}else {
